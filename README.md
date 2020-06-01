@@ -18,5 +18,5 @@ console.log(result);
 
 ## Example
 ```shell
-deno run --allow-net https://raw.githubusercontent.com/NuroDev/traveller/master/tests/get.ts
+deno run --allow-net https://raw.githubusercontent.com/NuroDev/traveller/master/examples/get.ts
 ```
