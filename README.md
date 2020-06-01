@@ -6,7 +6,7 @@
 [![Deno Version](https://img.shields.io/badge/deno->=1.0.0-red.svg?longCache=true&style=for-the-badge)](https://github.com/denoland/deno)
 [![Deno STD Version](https://img.shields.io/badge/std-0.52.0-brightgreen.svg?longCache=true&style=for-the-badge)](https://github.com/denoland/deno)
 
-# Usage
+## 🔨 Usage
 ```typescript
 import { TurnipExchange } from 'https://raw.githubusercontent.com/NuroDev/traveller/master/mod.ts';
 
@@ -17,7 +17,7 @@ const result = await turnips.get(3);
 console.log(result);
 ```
 
-## Example
+## 🚀 Example
 ```shell
 deno run --allow-net https://raw.githubusercontent.com/NuroDev/traveller/master/examples/get.ts
 ```
