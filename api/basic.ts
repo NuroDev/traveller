@@ -13,11 +13,13 @@ export async function handler(
 
   const result = await turnips.get_all();
 
-  console.log(`Response: ${JSON.stringify(result)}`);
+  const body: string = JSON.stringify(result);
+
+  console.log(`Response: ${body}`);
 
   return {
     statusCode: 200,
-    body: JSON.stringify(result),
+    body,
     headers: {
       "content-type": "application/json",
     },

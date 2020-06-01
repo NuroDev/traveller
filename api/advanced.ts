@@ -19,13 +19,13 @@ export async function handler(
 
   const result = await turnips.get(numIslands);
 
-  const result_str = JSON.stringify(result);
+  const body: string = JSON.stringify(result);
 
-  console.log(`Response: ${result_str}`);
+  console.log(`Response: ${body}`);
 
   return {
     statusCode: 200,
-    body: result_str,
+    body,
     headers: {
       "content-type": "application/json",
     },
