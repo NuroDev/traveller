@@ -8,7 +8,7 @@
 
 ## 🔨 Usage
 ```typescript
-import { TurnipExchange } from 'https://raw.githubusercontent.com/NuroDev/traveller/master/mod.ts';
+import { TurnipExchange } from 'https://raw.githubusercontent.com/nurodev/traveller/master/mod.ts';
 
 const turnips = new TurnipExchange();
 
@@ -19,5 +19,10 @@ console.log(result);
 
 ## 🚀 Example
 ```shell
-deno run --allow-net https://raw.githubusercontent.com/NuroDev/traveller/master/examples/get.ts
+deno run --allow-net https://raw.githubusercontent.com/nurodev/traveller/master/examples/get.ts
+```
+
+## ✅ Tests
+```shell
+deno run --allow-net https://raw.githubusercontent.com/nurodev/traveller/master/test.ts
 ```
